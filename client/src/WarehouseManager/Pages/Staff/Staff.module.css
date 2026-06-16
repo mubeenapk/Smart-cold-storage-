@@ -1,0 +1,71 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+}
+
+.subcontainer {
+  width: 420px;
+  padding: 30px 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hd {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.inp {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.inp:focus {
+  border-color: #1976d2;
+}
+
+textarea.inp {
+  resize: none;
+  height: 80px;
+}
+
+select.inp {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+input[type="file"].inp {
+  padding: 6px;
+}
+
+.cntr {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.sb {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sb:hover {
+  background-color: #125aa0;
+}
+ 

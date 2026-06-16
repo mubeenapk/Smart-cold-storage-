@@ -1,0 +1,154 @@
+.navbar {
+  width: 100%;
+  position: relative;
+  left: 0;
+  min-height: 72px;
+  padding: 0 1.5rem;
+  background: #06274a;
+  backdrop-filter: blur(18px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.logoIcon {
+  width: 46px;
+  height: 46px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 10px 30px rgba(14,165,233,0.25);
+}
+
+.logo h2 {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 2px;
+}
+
+.logo p {
+  color: #94a3b8;
+  font-size: 0.75rem;
+}
+
+/* nav */
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* links */
+
+.link {
+  min-height: 42px;
+  padding: 0 0.9rem;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 0.85rem;
+  border: 1px solid transparent;
+  transition: 0.25s ease;
+}
+
+.link:hover {
+  background: rgba(255,255,255,0.05);
+  color: white;
+}
+
+/* profile */
+
+.dropdown {
+  position: relative;
+}
+
+.profile {
+  min-height: 42px;
+  padding: 0 0.9rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.05);
+  color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.profile:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+/* dropdown */
+
+.dropdownMenu {
+  position: absolute;
+  right: 0;
+  top: 52px;
+  width: 180px;
+  background: rgba(7, 17, 31, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  z-index: 100;
+}
+
+.dropItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.7rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 0.85rem;
+  transition: 0.2s ease;
+}
+
+.dropItem:hover {
+  background: rgba(255,255,255,0.06);
+  color: white;
+}
+
+/* responsive */
+
+@media (max-width: 900px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}

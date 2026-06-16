@@ -1,0 +1,43 @@
+.inp{
+    height: 25px;
+    width: 400px;
+    border-radius: 7px;
+    border-width: 0.5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0;
+    
+}
+.sb{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(35, 85, 202);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    
+}
+.cntr{
+    display: flex;
+    justify-content: center;
+}
+.sb:hover{
+    background-color: rgb(25, 25, 177);
+}
+.hd{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

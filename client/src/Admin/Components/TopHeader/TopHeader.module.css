@@ -1,0 +1,105 @@
+.topHeader {
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(14px);
+  background: rgba(7, 17, 31, 0.55);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menuBtn,
+.iconBtn {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.05);
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.searchBox {
+  width: 360px;
+  height: 48px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0 1rem;
+  color: #94a3b8;
+}
+
+.searchBox input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.profileCard {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 0.55rem 0.9rem;
+  border-radius: 18px;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: white;
+}
+
+.profileCard h4 {
+  font-size: 0.92rem;
+  color: white;
+}
+
+.profileCard p {
+  font-size: 0.78rem;
+  color: #94a3b8;
+}
+
+@media (max-width: 900px) {
+  .topHeader {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .searchBox {
+    width: 100%;
+  }
+
+  .right {
+    justify-content: space-between;
+  }
+}

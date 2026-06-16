@@ -1,0 +1,79 @@
+/* Full page center layout */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4f6f9, #e9edf3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  width: 100%;
+  max-width: 700px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Heading */
+.card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2d3748;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Info text */
+.card p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #4a5568;
+}
+
+/* Report Box */
+.reportBox {
+  margin-top: 20px;
+  padding: 18px;
+  background: #f7fafc;
+  border-left: 5px solid #2d89ef;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #2d3748;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+/* Back Button */
+.backBtn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 10px;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.backBtn:hover {
+  background-color: #1b5fbf;
+}
+
+/* Smooth Fade Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,234 @@
+.inp{
+    height: 25px;
+    width: 400px;
+    border-radius: 7px;
+    border-width: 0.5px;
+    border: 1px solid #cfcfcf;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0;
+    
+}
+.cntr {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* space between buttons */
+}
+
+.sb {
+  padding: 8px 20px;
+  background-color: #1976d2; /* submit color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel {
+  padding: 8px 20px;
+  background-color: rgb(202, 40, 40); /* green cancel button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  background-color: rgb(112, 15, 15);
+}
+
+
+.sb:hover{
+    background-color: rgb(25, 25, 177);
+}
+.hd{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.file {
+    height: 35px;
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid #cfcfcf;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.file::-webkit-file-upload-button {
+    height: 30px;
+    border: none;
+    background-color: rgb(35, 85, 202);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.file::-webkit-file-upload-button:hover {
+    background-color: rgb(25, 25, 177);
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.textarea {
+    width: 400px;
+    height: 70px;
+    border-radius: 7px;
+    border-width: 0.5px;
+    padding: 6px 8px;
+    resize: none;
+    font-family: inherit;
+    border: 1px solid #cfcfcf;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.card {
+    max-width: 480px;
+    background: white;
+    padding: 25px;.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+}
+
+.subcontainer {
+  width: 420px;
+  padding: 30px 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hd {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.inp {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.inp:focus {
+  border-color: #1976d2;
+}
+
+textarea.inp {
+  resize: none;
+  height: 80px;
+}
+
+select.inp {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+input[type="file"].inp {
+  padding: 6px;
+}
+
+.cntr {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.sb {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sb:hover {
+  background-color: #125aa0;
+}
+
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.file {
+    height: 35px;
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid #cfcfcf;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.file::-webkit-file-upload-button {
+    height: 30px;
+    border: none;
+    background-color: rgb(35, 85, 202);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.file::-webkit-file-upload-button:hover {
+    background-color: rgb(25, 25, 177);
+}
+
+.tablebox {
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #f4f2f2;
+    border-radius: 10px;
+}
+
+.emptyRow{
+  height: 50px;
+  background-color: #fafafa;
+  border-bottom: 1px dashed #ddd;
+}
+.emptyRow :first-child::before {
+  content: "—";
+  color: #f4f3f3;
+}
+
+.emptyRow:hover {
+  background-color: #f9f9fa;
+}
+

@@ -1,0 +1,87 @@
+.dashboardWrapper {
+  min-height: 100vh;
+  /* Clean Blue-Gray Gradient */
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  /* Subtle geometric pattern */
+  background-image: radial-gradient(#cbd5e1 0.8px, transparent 0.8px);
+  background-size: 30px 30px;
+  padding: 40px 20px;
+}
+
+.header {
+  max-width: 1100px;
+  margin: 0 auto 40px auto;
+}
+
+.titleArea {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.titleIcon {
+  color: #0369a1;
+}
+
+.titleArea h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  color: #1e293b;
+}
+
+.titleArea p {
+  margin: 0;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.actionGrid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.actionCard {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px); /* Glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 24px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.actionCard:hover {
+  transform: translateY(-5px);
+  background: white;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+  border-color: #0369a1;
+}
+
+.iconCircle {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.actionCard h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+.actionCard p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.4;
+}

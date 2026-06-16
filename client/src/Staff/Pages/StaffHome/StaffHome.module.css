@@ -1,0 +1,10 @@
+.container {
+    min-height: calc(100vh - 72px); /* subtract navbar height */
+    background-color: #f5f7fb;
+    padding: 20px;
+}
+
+/* Page content */
+.staffrouter {
+    width: 100%;
+}
